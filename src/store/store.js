@@ -1,8 +1,8 @@
 import { createStore } from "redux";
-import reducer from "../reducers/reducers";
-import { contacts } from "../static-data";
+import reducer from "../reducers/rootReducer";
+// import { contacts } from "../static-data";
 
-const store = createStore(reducer, { contacts });
+const store = createStore(reducer);
 
 export default store;
 
